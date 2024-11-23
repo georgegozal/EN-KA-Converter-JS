@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <title>EN - KA Coverter</title>
+</head>
+<body>
+    <h1 class="header">EN KA Converter</h1>
+    <div class="container">
+        <div class="form-floating mb-3">
+            <p>EN</p>
+            <textarea class="form-control" id="floatingTextareaEN"></textarea>
+        </div>
+        <div class="form-floating mb-3">
+            <p>KA</p>
+            <textarea class="form-control" id="floatingTextareaKA" disabled></textarea>
+            </br>
+            <button onclick="copyToClipboard()" class="btn btn-outline-primary">ტექსტის მოკოპირება</button>
+        </div>
+    </div>
+    <script src="assets/scripts/main.js" defer></script>
+</body>
+</html>
